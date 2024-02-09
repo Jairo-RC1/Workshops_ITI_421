@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
             margin: 0;
             padding: 0;
         }
+
         .container {
             max-width: 800px;
             margin: 20px auto;
@@ -20,6 +22,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -30,33 +33,45 @@
             <p>Correo: jairocastro.jr@gmail.com</p>
         </header>
         <hr>
-        <section>
-            <h2>Carreras</h2>
-            <ul class="list-group">
-                <li class="list-group-item">Ingeniería en Tecnologias de Informacion - Universidad Tecnica Nacional(EN PROCESO)</li>
-                <li class="list-group-item">Tecnico Especializado en Ciberseguridad- Univerisdad Latina de Costa Rica (EN PROCESO)</li>
-            </ul>
-        </section>
-        <hr>
-        <section>
-            <h2>Experiencia Laboral</h2>
-            <div class="accordion" id="experienceAccordion">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Ministerio de Educacion Publica (MEP)
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#experienceAccordion">
-                        <div class="accordion-body">
-                            <p>Asistente tecnico de supervisor Circuito 01 Zona norte norte.</p>
+        <main>
+            <section>
+                <h2>Carreras</h2>
+                <ul class="list-group">
+                    <li class="list-group-item">Ingeniería en Tecnologias de la Informacion - Universidad Tecnica
+                        Nacional(EN
+                        PROCESO)</li>
+                    <li class="list-group-item">Tecnico Especializado en Ciberseguridad- Univerisdad Latina de Costa
+                        Rica
+                        (EN PROCESO)</li>
+                </ul>
+            </section>
+            <hr>
+            <section>
+                <h2>Experiencia Laboral</h2>
+                <div class="accordion" id="experienceAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Ministerio de Educacion Publica (MEP)
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#experienceAccordion">
+                            <div class="accordion-body">
+                                <p>Asistente tecnico de supervisor Circuito 01 Zona norte norte.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </main>
+        <footer>
+            <p>Pie de Página - Derechos Reservados</p>
+        </footer>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
