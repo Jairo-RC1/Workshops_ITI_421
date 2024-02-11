@@ -1,0 +1,40 @@
+
+body {
+    background-color: #192a56; 
+    color: #ffffff; 
+}
+
+.container {
+    margin-top: 50px; 
+}
+
+.card {
+    background-color: #273c75; 
+    color: #ffffff; 
+    margin-bottom: 30px; 
+    border-radius: 15px; 
+}
+
+.expanded-card .card-img-top {
+    max-height: 400px; 
+    object-fit: cover; 
+}
+
+
+.card-img-top {
+    transition: max-height 0.5s ease-in-out; 
+}
+
+.card-title {
+    font-weight: bold; 
+}
+
+.btn-primary {
+    background-color: #3c6382; 
+    border-color: #3c6382; 
+}
+
+.btn-primary:hover {
+    background-color: #1e3799; 
+    border-color: #1e3799; 
+}
