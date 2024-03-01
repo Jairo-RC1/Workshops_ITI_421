@@ -38,17 +38,29 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-	body {
-    	font-size: 20px;
-    }
+  body {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 500px) {
-	body {
-    	background-color :#2841a4;
-    }
+  body {
+    background-color: #2841a4;
+  }
 }
 
-.h1, h1 {
+.h1,
+h1 {
   font-size: 3rem;
+}
+
+input {
+  border: red 1px solid;
+}
+.footer {
+  margin-bottom: auto;
+}
+
+footer p {
+  text-align: center;
 }
