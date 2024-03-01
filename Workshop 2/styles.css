@@ -36,19 +36,3 @@ body {
   background-color: #1e3799;
   border-color: #1e3799;
 }
-
-@media screen and (max-width: 500px) {
-	body {
-    	font-size: 20px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-	body {
-    	background-color :#2841a4;
-    }
-}
-
-.h1, h1 {
-  font-size: 3rem;
-}
